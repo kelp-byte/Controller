@@ -1,0 +1,16 @@
+C:\Users\dschm\Schule\Fächer\Infomatik\Q34\Controller\Controller\Controller\bin\Release\netstandard2.0\Controller.deps.json
+C:\Users\dschm\Schule\Fächer\Infomatik\Q34\Controller\Controller\Controller\bin\Release\netstandard2.0\Controller.dll
+C:\Users\dschm\Schule\Fächer\Infomatik\Q34\Controller\Controller\Controller\bin\Release\netstandard2.0\Controller.pdb
+C:\Users\dschm\Schule\Fächer\Infomatik\Q34\Controller\Controller\Controller\obj\Release\netstandard2.0\Controller.csproj.AssemblyReference.cache
+C:\Users\dschm\Schule\Fächer\Infomatik\Q34\Controller\Controller\Controller\obj\Release\netstandard2.0\Controller.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\dschm\Schule\Fächer\Infomatik\Q34\Controller\Controller\Controller\obj\Release\netstandard2.0\App.xaml.g.cs
+C:\Users\dschm\Schule\Fächer\Infomatik\Q34\Controller\Controller\Controller\obj\Release\netstandard2.0\MainPage.xaml.g.cs
+C:\Users\dschm\Schule\Fächer\Infomatik\Q34\Controller\Controller\Controller\obj\Release\netstandard2.0\Controller.AssemblyInfoInputs.cache
+C:\Users\dschm\Schule\Fächer\Infomatik\Q34\Controller\Controller\Controller\obj\Release\netstandard2.0\Controller.AssemblyInfo.cs
+C:\Users\dschm\Schule\Fächer\Infomatik\Q34\Controller\Controller\Controller\obj\Release\netstandard2.0\Controller.csproj.CoreCompileInputs.cache
+C:\Users\dschm\Schule\Fächer\Infomatik\Q34\Controller\Controller\Controller\obj\Release\netstandard2.0\XamlC.stamp
+C:\Users\dschm\Schule\Fächer\Infomatik\Q34\Controller\Controller\Controller\obj\Release\netstandard2.0\Controller.dll
+C:\Users\dschm\Schule\Fächer\Infomatik\Q34\Controller\Controller\Controller\obj\Release\netstandard2.0\refint\Controller.dll
+C:\Users\dschm\Schule\Fächer\Infomatik\Q34\Controller\Controller\Controller\obj\Release\netstandard2.0\Controller.pdb
+C:\Users\dschm\Schule\Fächer\Infomatik\Q34\Controller\Controller\Controller\obj\Release\netstandard2.0\ref\Controller.dll
+C:\Users\dschm\Schule\Fächer\Infomatik\Q34\Controller\Controller\Controller\obj\Release\netstandard2.0\Monitor.xaml.g.cs

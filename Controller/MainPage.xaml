@@ -1,0 +1,57 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Controller.MainPage"
+             Title="Auto Controller">
+
+    <ContentPage.ToolbarItems>
+        <ToolbarItem x:Name="ConnectTbi" Text="Verbinden" Clicked="ConnectTbi_Clicked" />
+        <ToolbarItem x:Name="MointorTbi" Text="Monitor" Clicked="MointorTbi_Clicked" />
+    </ContentPage.ToolbarItems>
+    <Grid>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="*"/>
+            <ColumnDefinition Width=".75*"/>
+            <ColumnDefinition Width=".5*"/>
+            <ColumnDefinition Width=".25*"/>
+            <ColumnDefinition Width="*"/>
+        </Grid.ColumnDefinitions>
+        <Grid.RowDefinitions>
+            <RowDefinition Height=".5*"/>
+            <RowDefinition Height="1.5*"/>
+            <RowDefinition Height="1.5*"/>
+            <RowDefinition Height=".5*"/>
+            <RowDefinition Height="*"/>
+        </Grid.RowDefinitions>
+
+
+        <ImageButton x:Name="BackBtn" Grid.Column="0" Grid.Row="2" Pressed="BackBtn_Pressed" Released="BackBtn_Released" Source="caretdownsolid.png"/>
+        <ImageButton x:Name="GoBtn" Grid.Column="0" Grid.Row="1" Pressed="GoBtn_Pressed" Released="GoBtn_Released" Source="caretupsolid.png"/>
+        <Label x:Name="velocityLbl" Grid.Row="1" Grid.Column="1" Grid.ColumnSpan="3" Text="20km/h" FontSize="20" HorizontalTextAlignment="Center" VerticalTextAlignment="Center"/>
+
+        <Label x:Name="StateLbl" Text="nicht Verbunden" TextColor="Red" Grid.Column="1" Grid.ColumnSpan="3" Grid.Row="0" HorizontalTextAlignment="Center" VerticalTextAlignment="Center"
+               />
+        <ImageButton x:Name="HornBtn" Grid.Column="1" Grid.Row="4" Pressed="HornBtn_Pressed" Released="HornBtn_Released" Source="horn.png" />
+        <Image Source="licht.png" Grid.Row="4" Grid.Column="2" />
+        <Switch x:Name="LightSwh"  Grid.Column="3" Grid.Row="4" PropertyChanged="LightSwh_PropertyChanged"/>
+
+
+        <Grid Grid.RowSpan="2" Grid.Column="4" Grid.Row="1">
+            <Grid.RowDefinitions>
+                <RowDefinition Height="*"/>
+                <RowDefinition Height="*"/>
+                <RowDefinition Height="*"/>
+            </Grid.RowDefinitions>
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="*"/>
+                <ColumnDefinition Width="*"/>
+            </Grid.ColumnDefinitions>
+
+            <ImageButton x:Name="RightBtn" Grid.Column="1" Grid.Row="1" Pressed="RightBtn_Pressed"  Released="RightBtn_Released" Source="caretrightsolid.png"/>
+            <ImageButton x:Name="LeftBtn" Grid.Column="0" Grid.Row="1" Pressed="LeftBtn_Pressed" Released="LeftBtn_Released" Source="caretleftsolid.png"/>
+
+        </Grid>
+
+    </Grid>
+
+</ContentPage>

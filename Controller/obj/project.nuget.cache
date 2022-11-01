@@ -1,0 +1,15 @@
+{
+  "version": 2,
+  "dgSpecHash": "w57XXWcfkMPzNUPcu0XVfvB7kp0JjLyGMvJ1LQv7tV6HTQ5/Km+OjAdtzWWPS/Qux/Zf90UDcu176Z887cW9ow==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\dschm\\Schule\\Fächer\\Infomatik\\Q34\\Controller\\Controller\\Controller\\Controller.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\dschm\\.nuget\\packages\\acr.userdialogs\\7.2.0.562\\acr.userdialogs.7.2.0.562.nupkg.sha512",
+    "C:\\Users\\dschm\\.nuget\\packages\\microsoft.netcore.platforms\\1.1.0\\microsoft.netcore.platforms.1.1.0.nupkg.sha512",
+    "C:\\Users\\dschm\\.nuget\\packages\\netstandard.library\\2.0.3\\netstandard.library.2.0.3.nupkg.sha512",
+    "C:\\Users\\dschm\\.nuget\\packages\\system.numerics.vectors\\4.5.0\\system.numerics.vectors.4.5.0.nupkg.sha512",
+    "C:\\Users\\dschm\\.nuget\\packages\\xamarin.essentials\\1.7.1\\xamarin.essentials.1.7.1.nupkg.sha512",
+    "C:\\Users\\dschm\\.nuget\\packages\\xamarin.forms\\5.0.0.2337\\xamarin.forms.5.0.0.2337.nupkg.sha512"
+  ],
+  "logs": []
+}
