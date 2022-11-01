@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\dschm\\Schule\\Fächer\\Infomatik\\Q34\\Controller\\Controller\\Controller\\Controller.csproj": {}
+    "C:\\Users\\dschm\\Schule\\Fächer\\Infomatik\\Q34\\Arduino\\Controller\\Controller\\Controller\\Controller.csproj": {}
   },
   "projects": {
-    "C:\\Users\\dschm\\Schule\\Fächer\\Infomatik\\Q34\\Controller\\Controller\\Controller\\Controller.csproj": {
+    "C:\\Users\\dschm\\Schule\\Fächer\\Infomatik\\Q34\\Arduino\\Controller\\Controller\\Controller\\Controller.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\dschm\\Schule\\Fächer\\Infomatik\\Q34\\Controller\\Controller\\Controller\\Controller.csproj",
+        "projectUniqueName": "C:\\Users\\dschm\\Schule\\Fächer\\Infomatik\\Q34\\Arduino\\Controller\\Controller\\Controller\\Controller.csproj",
         "projectName": "Controller",
-        "projectPath": "C:\\Users\\dschm\\Schule\\Fächer\\Infomatik\\Q34\\Controller\\Controller\\Controller\\Controller.csproj",
+        "projectPath": "C:\\Users\\dschm\\Schule\\Fächer\\Infomatik\\Q34\\Arduino\\Controller\\Controller\\Controller\\Controller.csproj",
         "packagesPath": "C:\\Users\\dschm\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\dschm\\Schule\\Fächer\\Infomatik\\Q34\\Controller\\Controller\\Controller\\obj\\",
+        "outputPath": "C:\\Users\\dschm\\Schule\\Fächer\\Infomatik\\Q34\\Arduino\\Controller\\Controller\\Controller\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\dschm\\AppData\\Roaming\\NuGet\\NuGet.Config",

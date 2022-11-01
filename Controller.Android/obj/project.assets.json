@@ -3248,11 +3248,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\dschm\\Schule\\Fächer\\Infomatik\\Q34\\Controller\\Controller\\Controller.Android\\Controller.Android.csproj",
+      "projectUniqueName": "C:\\Users\\dschm\\Schule\\Fächer\\Infomatik\\Q34\\Arduino\\Controller\\Controller\\Controller.Android\\Controller.Android.csproj",
       "projectName": "Controller.Android",
-      "projectPath": "C:\\Users\\dschm\\Schule\\Fächer\\Infomatik\\Q34\\Controller\\Controller\\Controller.Android\\Controller.Android.csproj",
+      "projectPath": "C:\\Users\\dschm\\Schule\\Fächer\\Infomatik\\Q34\\Arduino\\Controller\\Controller\\Controller.Android\\Controller.Android.csproj",
       "packagesPath": "C:\\Users\\dschm\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\dschm\\Schule\\Fächer\\Infomatik\\Q34\\Controller\\Controller\\Controller.Android\\obj\\",
+      "outputPath": "C:\\Users\\dschm\\Schule\\Fächer\\Infomatik\\Q34\\Arduino\\Controller\\Controller\\Controller.Android\\obj\\",
       "projectStyle": "PackageReference",
       "skipContentFileWrite": true,
       "configFilePaths": [
@@ -3270,8 +3270,8 @@
       "frameworks": {
         "monoandroid12.0": {
           "projectReferences": {
-            "C:\\Users\\dschm\\Schule\\Fächer\\Infomatik\\Q34\\Controller\\Controller\\Controller\\Controller.csproj": {
-              "projectPath": "C:\\Users\\dschm\\Schule\\Fächer\\Infomatik\\Q34\\Controller\\Controller\\Controller\\Controller.csproj"
+            "C:\\Users\\dschm\\Schule\\Fächer\\Infomatik\\Q34\\Arduino\\Controller\\Controller\\Controller\\Controller.csproj": {
+              "projectPath": "C:\\Users\\dschm\\Schule\\Fächer\\Infomatik\\Q34\\Arduino\\Controller\\Controller\\Controller\\Controller.csproj"
             }
           }
         }

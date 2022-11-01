@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "kbOUny2AsnUS7P21ShMC+wM9URmYmbq0WUeDg0LUHeGUggWMfQAYwH9n6+PNs7BkFPWtU+KadicAceLTI/KTEQ==",
+  "dgSpecHash": "XGL3aiKi/SXpC1zyXpzC7DhUeGcIEGEh1dDYWPBRIujjVfmMkLnjF3DN7teHIJrXs1EAjgmIACVauuGvHi9XFA==",
   "success": true,
-  "projectFilePath": "C:\\Users\\dschm\\Schule\\Fächer\\Infomatik\\Q34\\Controller\\Controller\\Controller.Android\\Controller.Android.csproj",
+  "projectFilePath": "C:\\Users\\dschm\\Schule\\Fächer\\Infomatik\\Q34\\Arduino\\Controller\\Controller\\Controller.Android\\Controller.Android.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\dschm\\.nuget\\packages\\acr.userdialogs\\7.2.0.562\\acr.userdialogs.7.2.0.562.nupkg.sha512",
     "C:\\Users\\dschm\\.nuget\\packages\\andhud\\1.4.3\\andhud.1.4.3.nupkg.sha512",

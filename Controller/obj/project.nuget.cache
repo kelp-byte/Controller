@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "w57XXWcfkMPzNUPcu0XVfvB7kp0JjLyGMvJ1LQv7tV6HTQ5/Km+OjAdtzWWPS/Qux/Zf90UDcu176Z887cW9ow==",
+  "dgSpecHash": "jymkRQCN5b2Fv79LaDSvomvO9qgzWpMv9e+qCH5aApQwnrZZ54KB27FK1CCb5BimidpBZws8P0flkwevHvHdag==",
   "success": true,
-  "projectFilePath": "C:\\Users\\dschm\\Schule\\Fächer\\Infomatik\\Q34\\Controller\\Controller\\Controller\\Controller.csproj",
+  "projectFilePath": "C:\\Users\\dschm\\Schule\\Fächer\\Infomatik\\Q34\\Arduino\\Controller\\Controller\\Controller\\Controller.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\dschm\\.nuget\\packages\\acr.userdialogs\\7.2.0.562\\acr.userdialogs.7.2.0.562.nupkg.sha512",
     "C:\\Users\\dschm\\.nuget\\packages\\microsoft.netcore.platforms\\1.1.0\\microsoft.netcore.platforms.1.1.0.nupkg.sha512",
