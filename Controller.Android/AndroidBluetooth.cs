@@ -99,7 +99,7 @@ namespace Controller.Droid
                 }
                 catch (System.Exception e)
                 {
-                 
+
                     //Schließt den Sochet
                     Console.WriteLine(e.Message);
                     try
@@ -194,62 +194,78 @@ namespace Controller.Droid
                 int bytes;
 
                 var tets = Task.Factory.StartNew(() =>
+                {
+                    string velocity = "";
+                    var builder = new StringBuilder();
+                    string data = "";
+                    char[] tmp;
+                    char[] input;
+                    int header = 0;
+                    while (true)
                     {
-                        string velocity = "";
-                        var builder = new StringBuilder();
 
-                        while (true)
+                        try
                         {
 
-                            try
+                            buffer = new byte[1024];
+                            bytes = inStream.Read(buffer, 0, buffer.Length);
+
+                            //Lesen der Nachricht und Speichern der Länge
+                            if (bytes > 0)
                             {
-                                //Lesen der Nachricht und Speichern der Länge
-                                buffer = new byte[1024];
-                                bytes = inStream.Read(buffer, 0, buffer.Length);
-                                if (bytes > 0)
+                                tmp = System.Text.Encoding.ASCII.GetChars(buffer);
+
+                                for (int i = 0; i < tmp.Length && tmp[i] != '\0'; i++)
                                 {
-                                    //Umwanden in Text
-                                    string valor = System.Text.Encoding.ASCII.GetString(buffer);
-                                    inputData.Add(new Data(valor));
-                                    char[] chars = valor.ToCharArray();
-                                    for (int i = 0; i < chars.Length && chars[i] != '\n' && chars[i] != '\0'; i++)
+                                    if (tmp[i] == '\x03')
                                     {
-                                        if (chars[i] == '\r')
+                                        data += tmp[i];
+                                        input = data.ToCharArray();
+                                        if (input[0] == '\x01')
                                         {
-                                            velocity = builder.ToString();
-                                            MainActivity.main.RunOnUiThread(() =>
-                                            {
-                                                //Schreiben in das Label
-                                                Console.WriteLine("Bekommen:" + velocity);
-                                                label.Text = velocity;
-
-
-
-                                            });
-                                            builder = new StringBuilder();
+                                            header = input[1] - 48;
                                         }
-                                        else
+                                        data = "";
+                                        for (int y = 0; input[y + 3] != '\x03'; y++)
                                         {
-                                            builder.Append(chars[i]);
+                                            data += input[y + 3];
                                         }
+                                        velocity = data;
+
+                                        inputData.Add(new Data(data));
+
+                                        switch (header)
+                                        {
+                                            case 7:
+                                                MainActivity.main.RunOnUiThread(() =>
+                                                {
+                                                    label.Text = velocity + "km/h";
+                                                });
+                                                break;
+                                        }
+
+                                        data = "";
+                                        break;
                                     }
-
-                                    //Ausführen in dem HauptThread 
-
+                                    data += tmp[i];
                                 }
-
-
-                            }
-                            catch
-                            {
-                            }
-                            if (tokenSource.IsCancellationRequested)
-                            {
-                                break;
                             }
                         }
-                    });
+                        catch
+                        {
+
+                        }
+                        if (tokenSource.IsCancellationRequested)
+                        {
+                            break;
+                        }
+                    }
+
+
+
+                });
             }
+
         }
 
         public List<Data> getInputData()
